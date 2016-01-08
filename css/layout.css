@@ -759,6 +759,13 @@ call-to-action .button {
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#testimonials p {
+  font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 50px;
+   line-height: 48px;
+   color: #fff
+}
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
