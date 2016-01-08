@@ -281,6 +281,10 @@ ul#nav li.current a { color: crimson; }
    margin-top: 6px;
 }
 
+article h4 {
+  margin-bottom: 10px;
+}
+
 .tags {
   list-style: none;
   margin: 0;
