@@ -133,7 +133,7 @@
       randomize: false,
    });
 
-   $('.readmore').readmore({speed: 500});
+   $('article').readmore({speed: 500});
 
 });
 
