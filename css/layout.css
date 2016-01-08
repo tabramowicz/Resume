@@ -242,7 +242,7 @@ ul#nav li.current a { color: crimson; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #11ABB0; text-align: center; margin: 15px 0;}
 #resume a:hover, #resume a:focus { color: crimson; }
 
 #resume h1 {
