@@ -290,6 +290,7 @@ ul#nav li.current a { color: crimson; }
 
 .tags li {
   float: left; 
+  font-size: 12px;
 }
 
 .tag {
