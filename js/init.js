@@ -143,11 +143,11 @@
     $('#my_popup').popup({
       transition: 'all 0.3s',
       escape: true,
-      background: white,
+      color: 'white',
       opacity: 0.7,
     });
 
-    
+
 });
 
 
