@@ -133,11 +133,23 @@
       randomize: false,
    });
 
-   $('article').readmore({speed: 500, collapsedHeight: 70, moreLink: '<a href="#">See more</a>'});
+   $('article').readmore({
+      speed: 500,
+      collapsedHeight: 70, 
+      moreLink: '<a href="#">See more</a>'
+    });
+
+   // Initialize the plugin
+    $('#my_popup').popup({
+      transition: 'all 0.3s',
+      escape: true,
+      background: white,
+      opacity: 0.7,
+    });
+
+    
 });
 
-      // Initialize the plugin
-      $('#my_popup').popup();
 
 
 
