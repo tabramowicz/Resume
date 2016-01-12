@@ -28,12 +28,13 @@
             <ul id="nav" class="nav">
               <MySource_ASSET>
                <li class="<MySource_PRINT var="settings.class" />">
-                <a class="smoothscroll" href='<MySource_PRINT var="asset_url" />' title='Przejdź do <MySource_PRINT var="asset_name" />'><MySource_PRINT var="asset_short_name" /></a>
+                <a class="smoothscroll" href='#<MySource_PRINT var="asset_name" />' title='Przejdź do <MySource_PRINT var="asset_name" />'><MySource_PRINT var="asset_short_name" /></a>
                 </li>
               </MySource_ASSET>
             </ul> <!-- end #nav -->
          </MySource_AREA> 
       </nav> <!-- end #nav-wrap -->
+    <MySource_AREA id_name="popUp" design_area="nest_content"/>
     <MySource_AREA id_name="page_body" design_area="body" />
    <!-- footer -->
    <footer>
@@ -42,7 +43,6 @@
             <MySource_AREA id_name="social_links" design_area="nest_content"/>
             <ul class="copyright">
                <li>%globals_date_Y%</li>
-               <li>Powered by Squiz Matrix</li>   
             </ul>
          </div>
          <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>

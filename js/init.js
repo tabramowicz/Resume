@@ -134,8 +134,10 @@
    });
 
    $('article').readmore({speed: 500, collapsedHeight: 70, moreLink: '<a href="#">See more</a>'});
-
 });
+
+      // Initialize the plugin
+      $('#my_popup').popup();
 
 
 
