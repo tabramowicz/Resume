@@ -141,6 +141,7 @@
 
    // Initialize the plugin
     $('#my_popup').popup({
+      autoopen: true,
       transition: 'all 0.3s',
       escape: true,
       color: 'white',
