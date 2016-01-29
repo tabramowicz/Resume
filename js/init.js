@@ -136,7 +136,7 @@
    $('article').readmore({
       speed: 500,
       collapsedHeight: 70, 
-      moreLink: '<a href="#"><i class="fa fa-arrow-circle-o-down fa-2x"></i></a>'
+      moreLink: '<a href="#"><i class="fa fa-arrow-circle-down fa-2x"></i></a>'
     });
 
    // Initialize the plugin
